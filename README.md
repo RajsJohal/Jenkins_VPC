@@ -13,4 +13,4 @@
 
 ## Configure VPC, Subnets, Routing Tables, Scurity Groups
 
-![diagram](jenkins_vpc.PNG)
+![diagram](JENKINS_AND_VPC.PNG)
