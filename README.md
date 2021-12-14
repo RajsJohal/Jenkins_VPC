@@ -1,7 +1,7 @@
 # VPC and CICD Task
 
 ## Diagram
-![diagram](images/JENKINS AND VPC.PNG)
+![diagram](images/jenkinsvpc.PNG)
 
 ## SetUp Jenkins EC2
 - Install Jenkins and dependencies
