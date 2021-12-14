@@ -1,7 +1,7 @@
 # VPC and CICD Task
 
 ## Diagram
-![diagram](JENKINS_AND_VPC.PNG)
+![diagram](images/JENKINS_AND_VPC.PNG)
 
 ## SetUp Jenkins EC2
 - Install Jenkins and dependencies
@@ -10,9 +10,9 @@
 
 
 ## App SetUp
-![app code](app_code.PNG)
+![app code](images/app_code.PNG)
 - App instance up and running and jenkins build can initialise app to be viewed on web browser on port 3000. 
 
 ## DB SetUp
-![DB Code](db_code.PNG)
+![DB Code](images/db_code.PNG)
 - Struggling to connect db to the app in order to see the /posts web page, all I can see is the cannot GET /posts. Most likely an error with SG and private subnet. Should also double check mongod env var. 
