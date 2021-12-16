@@ -13,6 +13,7 @@
 ## Jenkins NPM Test
 - Start the pipeline with a test build to ensure any changes made to the repo passes the built in tests for the application. 
 - Once this build passes, move on to the next build. 
+- The automated tests should be carried out in a agent node EC2 rather than the master node as the tests could potentially cause crashes so it is good practice to use agent node. 
 
 ## App SetUp
 ![app code](images/app_code.PNG)
