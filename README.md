@@ -10,6 +10,11 @@
 - Install Git and NodeJS plugins within Jenkins.
 - After installing NodeJS, configure global tools and give nodajs a name and select said node within the build. 
 
+## NAT Instance SetUp 
+- NAT instance needs to be configured to use provisioning file within Database EC2.
+- NAT instance requires inbound and outbound security groups to allow traffic from the DB instance. 
+- SSH into NAT instance, then SSH into DB instance.
+
 ## Jenkins NPM Test
 - Start the pipeline with a test build to ensure any changes made to the repo passes the built in tests for the application. 
 - Once this build passes, move on to the next build. 
