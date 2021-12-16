@@ -10,6 +10,9 @@
 - Install Git and NodeJS plugins within Jenkins.
 - After installing NodeJS, configure global tools and give nodajs a name and select said node within the build. 
 
+## GitHub
+- Add Jenkins IP to WebHook of the github repo 
+
 ## NAT Instance SetUp 
 - NAT instance needs to be configured to use provisioning file within Database EC2.
 - NAT instance requires inbound and outbound security groups to allow traffic from the DB instance. 
@@ -19,6 +22,11 @@
 - Start the pipeline with a test build to ensure any changes made to the repo passes the built in tests for the application. 
 - Once this build passes, move on to the next build. 
 - The automated tests should be carried out in a agent node EC2 rather than the master node as the tests could potentially cause crashes so it is good practice to use agent node. 
+
+## Jenkins Merge
+- Link git URL to merge build
+- Trigger Git Publisher to merge dev branch to the main branch. 
+![Merge](images/merge.PNG)
 
 ## App SetUp
 ![app code](images/app_code.PNG)
